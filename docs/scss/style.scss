@@ -5,10 +5,18 @@ $iconHover:#28BB76;
 @font-face {
   font-family:DigitalTech;
   src:url('../fonts/Digital_tech.otf') format('opentype');
+
+}
+ @font-face{
+   font-family:Ziplap;
+   src:url('/fonts/ZILAP_GEOMETRIK_DEMO.ttf') format('truetype');
+ }
+#WebDev{
+  font-family: Ziplap !important;
 }
 
-#WebDev{
-  font-family: DigitalTech !important;
+#name,#work{
+  font-family: DigitalTech;
 }
 .container{
 

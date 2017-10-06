@@ -10,14 +10,22 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
   <style>
-    @font-face {
-  font-family:DigitalTech;
-  src:url('/fonts/Digital_tech.otf') format('opentype');
-}
+  @font-face {
+    font-family:DigitalTech;
+    src:url('../fonts/Digital_tech.otf') format('opentype');
 
-#WebDev{
-  font-family: DigitalTech !important;
-}
+  }
+   @font-face{
+     font-family:Ziplap;
+     src:url('/fonts/ZILAP_GEOMETRIK_DEMO.ttf') format('truetype');
+   }
+  #WebDev{
+    font-family: Ziplap !important;
+  }
+
+  #name,#work{
+    font-family: DigitalTech;
+  }
   </style>
   <!--Github was being dumb, had to add font outside of css file-->
 </head>
@@ -35,7 +43,7 @@
 
     <div class="row text-center">
       <div class="col">
-        <h1 class="display-3">Ross Thompson</h1>
+        <h1 class="display-3"id="name">Ross Thompson</h1>
       </div>
 
     </div>
@@ -64,7 +72,7 @@
 
     <div class="row text-center">
       <div class="col">
-        <h2 class="display-4">Work</h2>
+        <h2 class="display-4" id="work">Work</h2>
         <br>
 
         <hr>

@@ -1,12 +1,16 @@
 @font-face {
-  font-family:DigitalTech;
-  src:url('../fonts/Digital_tech.otf') format('opentype');
-}
+  font-family: DigitalTech;
+  src: url("../fonts/Digital_tech.otf") format("opentype"); }
 
-#WebDev{
-  font-family: DigitalTech !important;
-}
+@font-face {
+  font-family: Ziplap;
+  src: url("/fonts/ZILAP_GEOMETRIK_DEMO.ttf") format("truetype"); }
 
+#WebDev {
+  font-family: Ziplap !important; }
+
+#name, #work {
+  font-family: DigitalTech; }
 
 .container {
   margin: 0 auto;
