@@ -1,9 +1,12 @@
 @font-face {
-  font-family: DigitalTech;
-  src: url("fonts/Digital_tech.otf"); }
+  font-family:DigitalTech;
+  src:url('/fonts/Digital_tech.otf');
+}
 
-#WebDev {
-  font-family: DigitalTech !important; }
+#WebDev{
+  font-family: DigitalTech !important;
+}
+
 
 .container {
   margin: 0 auto;
