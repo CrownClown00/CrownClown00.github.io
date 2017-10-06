@@ -1,6 +1,6 @@
 @font-face {
   font-family: DigitalTech;
-  src: url("../docs/fonts/Digital_tech.otf"); }
+  src: url("/docs/fonts/Digital_tech.otf"); }
 
 #WebDev {
   font-family: DigitalTech !important; }
