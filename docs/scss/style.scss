@@ -1,6 +1,15 @@
 $bgtime:green;
 $iconColor:#63FFBA;
 $iconHover:#28BB76;
+
+@font-face {
+  font-family:DigitalTech;
+  src:url(/fonts/Digital_tech.otf);
+}
+
+#WebDev{
+  font-family: DigitalTech;
+}
 .container{
 
   margin:0 auto;
