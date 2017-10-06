@@ -1,0 +1,16 @@
+$bgtime:green;
+$iconColor:#63FFBA;
+$iconHover:#28BB76;
+.container{
+
+  margin:0 auto;
+  text-align: center;
+}
+ i{
+   color:$iconColor;
+
+ }
+
+ i:hover{
+   color:$iconHover;
+ }
